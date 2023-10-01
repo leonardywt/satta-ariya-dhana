@@ -1,0 +1,48 @@
+.app__tentang {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding: 2rem 3rem;
+}
+
+.app__tentang-content {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.app__tentang-img {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    margin-left: 2rem;
+}
+
+.app__tentang-img img {
+    width: 60%;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__tentang {
+        flex-direction: column;
+    }
+
+    .app__tentang-img {
+        margin: 5rem 0 0 0;
+    }
+
+    .app__tentang-img img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__tentang-img img{
+        width: 100%;
+    }
+}

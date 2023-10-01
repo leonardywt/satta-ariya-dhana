@@ -1,0 +1,109 @@
+.app__footer{
+    background: #dedad3;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0.7;
+}
+
+.app__footer-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+
+.app__footer-contact,
+.app__footer-logo,
+.app__footer-findus {
+    flex: 1;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.app__footer-logo img:first-child {
+    width: 60px;
+    margin-bottom: 0.5rem;
+}
+
+.app__footer-contact{
+    margin-top: 1.5rem;
+}
+
+.app__footer-findus{
+    margin-top: 2rem;
+}
+
+.app__footer-findus svg{
+    color: black;
+    margin: 0.5rem;
+    font-size: 24px;
+}
+.app__footer-findus svg:hover{
+    color: white;
+}
+
+.app__footer-headtext{
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-size: 24px;
+    line-height: 41.6px;
+    margin-bottom: 0.5rem;
+
+}
+
+.footer__copyright {
+    width: 80%;
+    border-top: 3px solid #ffffff;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__footer-headtext {
+        font-size: 32px;
+        line-height: 61.6px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__footer-content {
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .app__footer-contact,
+    .app__footer-logo,
+    .app__footer-findus {
+        margin: 1rem 0;
+        width: 100%;
+    }
+    .app__footer-logo img:first-child {
+        width:15%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__footer {
+        padding: 0 0 2rem 0;
+    }
+    .app__footer-logo img:first-child {
+        width: 20%;
+    }
+}
+    
+
+@media screen and (max-width: 350px) {
+    .app__footer-logo img:first-child {
+        width: 20%;
+    }
+}

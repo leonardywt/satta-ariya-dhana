@@ -10,10 +10,10 @@ const NavigationBar = () => {
         <>
             <Navbar className="app__navbar sticky-top">
                 <Container>
-                    <Navbar.Brand href="#logo" className="app__navbar-logo">
+                    <Navbar.Brand href="#home" className="app__navbar-logo">
                         <img
                             alt="logo"
-                            src={require("../assets/images/logo.jpg")}
+                            src={require("../../assets/images/logo-removebg.png")}
                             className="d-inline-block align-top"
                         />{' '}
                         Satta Ariya Dhana
@@ -21,8 +21,8 @@ const NavigationBar = () => {
                     <Nav>
                         <div className="app__navbar-links">
                             <Nav.Link className="app__navbar-links-responsive" href="#home">Beranda</Nav.Link>
-                            <Nav.Link className="app__navbar-links-responsive" href="#features">Kegiatan</Nav.Link>
-                            <Nav.Link className="app__navbar-links-responsive" href="#pricing">Galeri</Nav.Link>
+                            <Nav.Link className="app__navbar-links-responsive" href="#kegiatan">Kegiatan</Nav.Link>
+                            {/* <Nav.Link className="app__navbar-links-responsive" href="#galeri">Galeri</Nav.Link> */}
                             <Nav.Link className="app__navbar-links-responsive" href="#tentang">Tentang</Nav.Link>
                         </div>
                         <div className="app__navbar-smallscreen">
@@ -32,8 +32,8 @@ const NavigationBar = () => {
                                     <GrClose className="overlay__close" onClick={() => setToggleMenu(false)} />
 
                                     <Nav.Link className="app__navbar-smallscreen_links" href="#home" onClick={() => setToggleMenu(false)}>Beranda</Nav.Link>
-                                    <Nav.Link className="app__navbar-smallscreen_links" href="#features" onClick={() => setToggleMenu(false)}>Kegiatan</Nav.Link>
-                                    <Nav.Link className="app__navbar-smallscreen_links" href="#pricing" onClick={() => setToggleMenu(false)}>Galeri</Nav.Link>
+                                    <Nav.Link className="app__navbar-smallscreen_links" href="#kegiatan" onClick={() => setToggleMenu(false)}>Kegiatan</Nav.Link>
+                                    {/* <Nav.Link className="app__navbar-smallscreen_links" href="#galeri" onClick={() => setToggleMenu(false)}>Galeri</Nav.Link> */}
                                     <Nav.Link className="app__navbar-smallscreen_links" href="#tentang" onClick={() => setToggleMenu(false)}>Tentang</Nav.Link>
 
                                 </div>

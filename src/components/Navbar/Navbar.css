@@ -9,6 +9,7 @@
 }
 
 .app__navbar-logo {
+    letter-spacing: 0.04em;
     display: flex;
     justify-content: flex-start;
     align-items: center;

@@ -1,8 +1,8 @@
 import './App.css';
-import NavigationBar from './components/Navbar'
-import Main from './components/Main'
-import Footer from './components/Footer';
-import "./components/Navbar.css"
+import NavigationBar from './components/Navbar/Navbar'
+import Main from './components/Main/Main'
+import Footer from './components/Footer/Footer';
+import "./components/Navbar/Navbar.css"
 
 function App() {
 

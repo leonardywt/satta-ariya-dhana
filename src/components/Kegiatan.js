@@ -2,7 +2,6 @@ import { Card } from "react-bootstrap"
 
 const Kegiatan = (props) => {
     return (
-
         <Card className="h-100">
             <Card.Img variant="top" src={props.image} />
             <Card.Body>
